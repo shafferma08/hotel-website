@@ -79,6 +79,23 @@ color: #333;
     clear: both;
 }
 
+.l-heading {
+    font-size: 40px;
+}
+
+/* Padding */
+.py-1 { 
+    padding: 10px 0; 
+}
+
+.py-2 { 
+    padding: 20px 0; 
+}
+
+.py-3 { 
+    padding: 30px 0; 
+}
+
 /* Navbar */
 #navbar {
     background: #333;
@@ -176,6 +193,27 @@ color: #333;
     margin-bottom: 10px;
 }
 
+/* About Info */
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img {
+    display: block;
+    width: 70%;
+    margin: auto;
+    border-radius: 50%;
+}
+
 /* Footer */
 #main-footer {
     text-align: center;
@@ -183,3 +221,4 @@ color: #333;
     color: #fff;
     padding: 20px;
 }
+
